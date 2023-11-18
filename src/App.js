@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import InfoWorking from "./components/InfoWorking";
 import Navigation from "./components/Navigation";
 import "./styles/App.css";
 
@@ -7,7 +8,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Header />
-      <Header />
+      <InfoWorking />
     </div>
   );
 }
