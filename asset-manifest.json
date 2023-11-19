@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prokopisyn/static/css/main.cb4cf854.css",
-    "main.js": "/prokopisyn/static/js/main.f32db89a.js",
+    "main.css": "/prokopisyn/static/css/main.41b84f44.css",
+    "main.js": "/prokopisyn/static/js/main.13e1ee9b.js",
     "static/media/description2.jpeg": "/prokopisyn/static/media/description2.74aa434669d072c3307e.jpeg",
     "static/media/img3.jpeg": "/prokopisyn/static/media/img3.c8b53647fc73e8dc576f.jpeg",
     "static/media/img2.jpeg": "/prokopisyn/static/media/img2.c8d3ef02e8d2e7cfb44f.jpeg",
@@ -13,11 +13,11 @@
     "static/media/baner.jpeg": "/prokopisyn/static/media/baner.ac768454df43f9b9f5a2.jpeg",
     "static/media/logo.png": "/prokopisyn/static/media/logo.2c7444b041d450cc0832.png",
     "index.html": "/prokopisyn/index.html",
-    "main.cb4cf854.css.map": "/prokopisyn/static/css/main.cb4cf854.css.map",
-    "main.f32db89a.js.map": "/prokopisyn/static/js/main.f32db89a.js.map"
+    "main.41b84f44.css.map": "/prokopisyn/static/css/main.41b84f44.css.map",
+    "main.13e1ee9b.js.map": "/prokopisyn/static/js/main.13e1ee9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4cf854.css",
-    "static/js/main.f32db89a.js"
+    "static/css/main.41b84f44.css",
+    "static/js/main.13e1ee9b.js"
   ]
 }
