@@ -3,6 +3,7 @@ import React from "react";
 import "../styles/Header.css";
 import { faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
   return (
@@ -15,15 +16,15 @@ const Header = () => {
           Prokop i syn{" "}
         </h1>
         <h1 className="text-5xl font-bold uppercase text-amber-500 border-b-3 border-white">
-          +48 729-339-051
+          <a href="tel:+48729339051">729-339-051</a>
         </h1>
-        <p className="mt-2 text-xl font-extralight">
-          Szybko bezpiecznie i całodobowo.
-        </p>
         <p className="text-xl font-extralight">
           Najlepsza pomoc drogowa w okolicy.
         </p>
-        <div className="flex flex-row mx-auto">
+        <p className="mt-2 text-xl font-extralight">
+          Szybko bezpiecznie i całodobowo.
+        </p>
+        <div className="flex flex-row mx-auto py-4">
           <a
             href="https://www.facebook.com/PomocDrogowaPROKOP24H/"
             target="_blank"
@@ -49,12 +50,15 @@ const Header = () => {
             />
           </a>
         </div>
-        <a
-          href="#oferta"
+        <ScrollLink
+          to="#oferta"
+          smooth={true}
+          duration={500}
+          offset={-50}
           className="block mt-4 mx-auto w-10/12 md:w-1/5 px-4 py-2 text-white border border-white rounded-lg transition duration-300 ease-in-out hover:bg-amber-500 hover:text-black"
         >
           Sprawdź nasza ofertę!
-        </a>
+        </ScrollLink>
       </div>
     </header>
   );

@@ -24,7 +24,7 @@ const Navigation = () => {
           <img src={logo} alt="Logo Prokop i Syn 24H" className="w-16" />
 
           <span className="text-black font-bold text-lg uppercase">
-            Prokop i Syn
+            POMOC DROGOWA 24H
           </span>
         </div>
 
