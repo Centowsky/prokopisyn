@@ -3,6 +3,7 @@ import Description from "./components/Description";
 import Header from "./components/Header";
 import InfoWorking from "./components/InfoWorking";
 import Navigation from "./components/Navigation";
+import Slider from "./components/Slider";
 import "./styles/App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Description />
       <Banner />
       <InfoWorking />
+      <Slider />
     </div>
   );
 }
