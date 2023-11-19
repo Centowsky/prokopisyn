@@ -1,3 +1,4 @@
+import Banner from "./components/Baner";
 import Description from "./components/Description";
 import Header from "./components/Header";
 import InfoWorking from "./components/InfoWorking";
@@ -10,6 +11,7 @@ function App() {
       <Navigation />
       <Header />
       <Description />
+      <Banner />
       <InfoWorking />
     </div>
   );
