@@ -1,3 +1,4 @@
+import Description from "./components/Description";
 import Header from "./components/Header";
 import InfoWorking from "./components/InfoWorking";
 import Navigation from "./components/Navigation";
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Header />
+      <Description />
       <InfoWorking />
     </div>
   );
