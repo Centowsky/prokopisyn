@@ -23,7 +23,10 @@ const areas = [
 const Description = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row py-8 items-center md:items-start mx-4 md:mx-8 my-6 md:my-10 border-b-2 border-black">
+      <div
+        id="oferta"
+        className="flex flex-col md:flex-row py-8 items-center md:items-start mx-4 md:mx-8 my-6 md:my-10 border-b-2 border-black"
+      >
         <div className="md:w-1/2 mb-4 md:mb-0">
           <img
             src={imageDes1}

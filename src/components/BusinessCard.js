@@ -15,7 +15,10 @@ const navItems = [
 
 const BusinessCard = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full bg-gray-300 text-black mt-10 items-start">
+    <div
+      className="flex flex-col md:flex-row w-full bg-gray-300 text-black mt-10 items-start"
+      id="wizytowka"
+    >
       <div className="p-4 md:w-1/3">
         <div className="p-2 mt-2">
           <img src={logo} alt="Logo firmy" className="w-64"></img>

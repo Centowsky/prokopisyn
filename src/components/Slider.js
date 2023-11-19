@@ -33,7 +33,10 @@ const Slider = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative min-w-screen flex items-center justify-center">
+    <div
+      id="galeria"
+      className="relative min-w-screen flex items-center justify-center"
+    >
       <div className="relative h-3/4 sm:h-4/5 lg:h-3/5 xl:h-2/3 overflow-hidden rounded-lg">
         {images.map((image, index) => (
           <div

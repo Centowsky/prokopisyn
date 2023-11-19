@@ -1,13 +1,14 @@
 import React, { useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/logo.png";
 
 const Navigation = () => {
   const navItems = [
-    { label: "Strona Główna", href: "#" },
-    { label: "Holowanie", href: "#" },
-    { label: "Laweta", href: "#" },
-    { label: "Galeria", href: "#" },
-    { label: "Kontakt", href: "#" },
+    { label: "Strona Główna", target: "home" },
+    { label: "Holowanie", target: "oferta" },
+    { label: "Laweta", target: "oferta" },
+    { label: "Galeria", target: "galeria" },
+    { label: "Kontakt", target: "wizytowka" },
   ];
 
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -21,8 +22,9 @@ const Navigation = () => {
       <div className="container mx-auto flex items-center justify-between flex-wrap">
         <div className="flex items-center space-x-4">
           <img src={logo} alt="Logo Prokop i Syn 24H" className="w-16" />
+
           <span className="text-black font-bold text-lg uppercase">
-            Prokop i Syn 24H
+            Prokop i Syn
           </span>
         </div>
 
@@ -68,13 +70,16 @@ const Navigation = () => {
           } md:w-auto w-full text-center`}
         >
           {navItems.map((item, index) => (
-            <a
+            <ScrollLink
               key={index}
-              href={item.href}
-              className="text-black border-b-2 border-transparent transition duration-300 hover:border-stone-950 hover:text-zinc-950 block md:inline-block md:mt-0 mt-2"
+              to={item.target}
+              smooth={true}
+              duration={500}
+              offset={-50}
+              className="text-black border-b-2 border-transparent transition duration-300 hover:border-stone-950 hover:text-zinc-950 block md:inline-block md:mt-0 mt-2 cursor-pointer"
             >
               {item.label}
-            </a>
+            </ScrollLink>
           ))}
         </div>
       </div>
