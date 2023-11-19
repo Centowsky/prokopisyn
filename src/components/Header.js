@@ -4,6 +4,7 @@ import "../styles/Header.css";
 import { faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link as ScrollLink } from "react-scroll";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
@@ -11,12 +12,20 @@ const Header = () => {
       <div id="header-image"></div>
       <div className="absolute inset-0"></div>
       <div className="container mx-auto text-center text-white absolute inset-0 flex flex-col justify-center">
-        <h1 className="text-6xl font-bold uppercase tracking-widest">
+        <h2 className="text-xl md:text-4xl font-extrabold uppercase text-amber-500">
           {" "}
-          Prokop i syn{" "}
-        </h1>
-        <h1 className="text-5xl font-bold uppercase text-amber-500 border-b-3 border-white">
-          <a href="tel:+48729339051">729-339-051</a>
+          KOLIZJE-WYPADKI-AWARIE-ASSISTANCE{" "}
+        </h2>
+        <h1 className="text-6xl font-extrabold uppercase"> Prokop i syn </h1>
+        <h1 className="text-4xl md:text-5xl font-bold uppercase  border-b-3 border-white">
+          <a href="tel:+48729339051" className="text-amber-500">
+            <FontAwesomeIcon
+              icon={faPhone}
+              size="sm"
+              className="text-amber-500  mr-2"
+            />
+            +48 729-339-051
+          </a>
         </h1>
         <p className="text-xl font-extralight">
           Najlepsza pomoc drogowa w okolicy.

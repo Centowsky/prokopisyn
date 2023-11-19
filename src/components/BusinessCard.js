@@ -1,10 +1,14 @@
 // BusinessCard.js
-import React from "react";
-import logo from "../assets/logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faMailForward,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+import logo from "../assets/logo.png";
 
 const navItems = [
   { label: "Strona Główna", target: "home" },
@@ -95,15 +99,30 @@ const BusinessCard = () => {
             Zadzwoń już teraz
           </span>
         </h3>
-        <div className="mt-4 flex flex-row items-center">
-          <FontAwesomeIcon
-            icon={faPhone}
-            size="sm"
-            className="bg-black text-white p-2 rounded-full mr-2"
-          />
-          <a href="tel:+48729339051" className="text-amber-500 font-bold">
-            +48 729-339-051
-          </a>
+        <div className="mt-4 flex flex-col items-start space-y-2">
+          <div className="flex flex-row">
+            <FontAwesomeIcon
+              icon={faPhone}
+              size="sm"
+              className="bg-black text-white p-2 rounded-full mr-2"
+            />
+            <a href="tel:+48729339051" className="text-amber-500 font-bold">
+              +48 729-339-051
+            </a>
+          </div>{" "}
+          <div className="flex flex-row">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="sm"
+              className="bg-black text-white p-2 rounded-full mr-2"
+            />
+            <a
+              href="mailto:kontakt@prokopisyn.pl"
+              className="text-amber-500 font-bold"
+            >
+              kontakt@prokopisyn.pl
+            </a>
+          </div>
         </div>
       </div>
     </div>
