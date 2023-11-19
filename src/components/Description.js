@@ -58,10 +58,10 @@ const Description = () => {
       </div>
       <div className="flex flex-col md:flex-row py-8 items-center md:items-start mx-4 md:mx-8 my-6 md:my-10">
         <div className="md:w-1/2 mb-4 md:mb-0">
-          <h2 className="text-center text-3xl italic mb-4 font-bold">
+          <h2 className="text-center text-3xl italic mb-4 font-bold  text-amber-500">
             Nasze główne obszary działania
           </h2>
-          <ul className="flex flex-wrap items-center justify-center list-none p-0 uppercase font-semibold">
+          <ul className="flex flex-wrap items-center justify-center list-none p-0 uppercase font-semibold  text-amber-500">
             {areas.map((area, index) => (
               <li
                 key={index}
@@ -94,7 +94,9 @@ const Description = () => {
             załatwić dzwoniąc tylko pod jeden numer telefonu. Pomoc drogowa 24h,
             ratownictwo drogowe, holowanie, assistance, parking, transport
             ładunków, wynajem auta zastępczego – dzwoń pod numer{" "}
-            <span className="text-amber-500 font-semibold">729 339 051</span>
+            <a href="tel:+48729339051">
+              <span className="text-amber-500 font-semibold">729 339 051</span>
+            </a>
           </p>
         </div>
       </div>

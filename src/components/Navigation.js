@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/logo.png";
 
-const Navigation = () => {
-  const navItems = [
-    { label: "Strona Główna", target: "home" },
-    { label: "Holowanie", target: "oferta" },
-    { label: "Laweta", target: "oferta" },
-    { label: "Galeria", target: "galeria" },
-    { label: "Kontakt", target: "wizytowka" },
-  ];
+const navItems = [
+  { label: "Strona Główna", target: "home" },
+  { label: "Holowanie", target: "oferta" },
+  { label: "Laweta", target: "oferta" },
+  { label: "Galeria", target: "galeria" },
+  { label: "Kontakt", target: "wizytowka" },
+];
 
+const Navigation = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -76,7 +76,7 @@ const Navigation = () => {
               smooth={true}
               duration={500}
               offset={-50}
-              className="text-black border-b-2 border-transparent transition duration-300 hover:border-stone-950 hover:text-zinc-950 block md:inline-block md:mt-0 mt-2 cursor-pointer"
+              className=" text-black border-b-2 border-transparent transition duration-300 hover:border-stone-950 hover:text-zinc-950 block md:inline-block md:mt-0 mt-2 cursor-pointer"
             >
               {item.label}
             </ScrollLink>

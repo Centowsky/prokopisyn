@@ -4,13 +4,14 @@ import logo from "../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Link as ScrollLink } from "react-scroll";
 
 const navItems = [
-  { label: "Strona Główna", href: "#" },
-  { label: "Holowanie", href: "#" },
-  { label: "Laweta", href: "#" },
-  { label: "Galeria", href: "#" },
-  { label: "Kontakt", href: "#" },
+  { label: "Strona Główna", target: "home" },
+  { label: "Holowanie", target: "oferta" },
+  { label: "Laweta", target: "oferta" },
+  { label: "Galeria", target: "galeria" },
+  { label: "Kontakt", target: "wizytowka" },
 ];
 
 const BusinessCard = () => {
@@ -72,12 +73,16 @@ const BusinessCard = () => {
           {navItems.map((item, index) => (
             <div key={index} className="flex items-center mb-2 font-semibold">
               <span className="text-amber-500 mr-2">&gt;</span>
-              <a
-                href={item.href}
-                className="text-black border-b-2 border-transparent transition duration-300 hover:border-stone-950 hover:text-zinc-950"
+              <ScrollLink
+                key={index}
+                to={item.target}
+                smooth={true}
+                duration={500}
+                offset={-50}
+                className="hover:cursor-pointer text-black border-b-2 border-transparent transition duration-300 hover:border-stone-950 hover:text-zinc-950"
               >
                 {item.label}
-              </a>
+              </ScrollLink>
             </div>
           ))}
         </div>
@@ -96,7 +101,7 @@ const BusinessCard = () => {
             size="sm"
             className="bg-black text-white p-2 rounded-full mr-2"
           />
-          <a href="tel:+48729339051" className="text-black">
+          <a href="tel:+48729339051" className="text-amber-500 font-bold">
             +48 729-339-051
           </a>
         </div>
