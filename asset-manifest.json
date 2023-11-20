@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/prokopisyn/static/css/main.41b84f44.css",
-    "main.js": "/prokopisyn/static/js/main.13e1ee9b.js",
-    "static/media/description2.jpeg": "/prokopisyn/static/media/description2.74aa434669d072c3307e.jpeg",
-    "static/media/img3.jpeg": "/prokopisyn/static/media/img3.c8b53647fc73e8dc576f.jpeg",
-    "static/media/img2.jpeg": "/prokopisyn/static/media/img2.c8d3ef02e8d2e7cfb44f.jpeg",
-    "static/media/img1.jpeg": "/prokopisyn/static/media/img1.8f46991e39fb5134c081.jpeg",
-    "static/media/description1.jpeg": "/prokopisyn/static/media/description1.107d1f87735625c5870f.jpeg",
-    "static/media/img5.jpeg": "/prokopisyn/static/media/img5.694285960ba927e0037e.jpeg",
-    "static/media/header.jpeg": "/prokopisyn/static/media/header.f4e18ae7560357dff66d.jpeg",
-    "static/media/img4.jpeg": "/prokopisyn/static/media/img4.5269ca3f35bf0dc70636.jpeg",
-    "static/media/baner.jpeg": "/prokopisyn/static/media/baner.ac768454df43f9b9f5a2.jpeg",
+    "main.css": "/prokopisyn/static/css/main.4e7ca500.css",
+    "main.js": "/prokopisyn/static/js/main.a552f461.js",
+    "static/media/galeria8.webp": "/prokopisyn/static/media/galeria8.446d752633a5a738ed5c.webp",
+    "static/media/galeria12.webp": "/prokopisyn/static/media/galeria12.5d9dc784f50b97b58e8e.webp",
+    "static/media/galeria11.webp": "/prokopisyn/static/media/galeria11.b3df8b513322592a10a5.webp",
+    "static/media/zdarzenie.webp": "/prokopisyn/static/media/zdarzenie.4933da34e63b8fcc7b6d.webp",
+    "static/media/galeria9.webp": "/prokopisyn/static/media/galeria9.fba76a062246ae4b2db2.webp",
+    "static/media/galeria3.webp": "/prokopisyn/static/media/galeria3.b09c91d19dcacdd22c6e.webp",
+    "static/media/galeria10.webp": "/prokopisyn/static/media/galeria10.802182361e3c29896efb.webp",
+    "static/media/galeria2.webp": "/prokopisyn/static/media/galeria2.30381ca6e4f91213c81a.webp",
+    "static/media/galeria5.webp": "/prokopisyn/static/media/galeria5.f4ad9ecfe5a18f5931be.webp",
+    "static/media/galeria1.webp": "/prokopisyn/static/media/galeria1.2d27e613ce02ba360477.webp",
+    "static/media/wypadek.webp": "/prokopisyn/static/media/wypadek.6dd2d455e98482abab47.webp",
+    "static/media/galeria4.webp": "/prokopisyn/static/media/galeria4.b43aedea10ea1c096dc2.webp",
+    "static/media/galeria7.webp": "/prokopisyn/static/media/galeria7.90008747b49a59a86cdf.webp",
+    "static/media/header.webp": "/prokopisyn/static/media/header.7dfb993571a62dc45c42.webp",
+    "static/media/galeria6.webp": "/prokopisyn/static/media/galeria6.5ec698138008c4a8f344.webp",
     "static/media/logo.png": "/prokopisyn/static/media/logo.2c7444b041d450cc0832.png",
+    "static/media/baner.webp": "/prokopisyn/static/media/baner.08eef05c6fbe3c642113.webp",
     "index.html": "/prokopisyn/index.html",
-    "main.41b84f44.css.map": "/prokopisyn/static/css/main.41b84f44.css.map",
-    "main.13e1ee9b.js.map": "/prokopisyn/static/js/main.13e1ee9b.js.map"
+    "main.4e7ca500.css.map": "/prokopisyn/static/css/main.4e7ca500.css.map",
+    "main.a552f461.js.map": "/prokopisyn/static/js/main.a552f461.js.map"
   },
   "entrypoints": [
-    "static/css/main.41b84f44.css",
-    "static/js/main.13e1ee9b.js"
+    "static/css/main.4e7ca500.css",
+    "static/js/main.a552f461.js"
   ]
 }
